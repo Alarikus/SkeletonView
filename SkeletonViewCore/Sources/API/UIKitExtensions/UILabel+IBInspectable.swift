@@ -15,25 +15,21 @@ import UIKit
 
 public extension UILabel {
     
-    @IBInspectable
     var lastLineFillPercent: Int {
         get { return lastLineFillingPercent }
         set { lastLineFillingPercent = min(newValue, 100) }
     }
     
-    @IBInspectable
     var linesCornerRadius: Int {
         get { return multilineCornerRadius }
         set { multilineCornerRadius = newValue }
     }
     
-    @IBInspectable
     var skeletonLineSpacing: CGFloat {
         get { return multilineSpacing }
         set { multilineSpacing = newValue }
     }
     
-    @IBInspectable
     var useFontLineHeight: Bool {
         get { usesTextHeightForLines }
         set { usesTextHeightForLines = newValue }
