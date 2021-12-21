@@ -30,9 +30,4 @@ public extension UILabel {
         set { multilineSpacing = newValue }
     }
     
-    var useFontLineHeight: Bool {
-        get { usesTextHeightForLines }
-        set { usesTextHeightForLines = newValue }
-    }
-    
 }

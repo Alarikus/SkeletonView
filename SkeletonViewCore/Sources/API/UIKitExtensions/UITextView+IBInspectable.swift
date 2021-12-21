@@ -30,9 +30,4 @@ public extension UITextView {
         set { multilineSpacing = newValue }
     }
     
-    var useFontLineHeight: Bool {
-        get { usesTextHeightForLines }
-        set { usesTextHeightForLines = newValue }
-    }
-
 }
